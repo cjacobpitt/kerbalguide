@@ -1,0 +1,64 @@
+body {
+    background-image: url(Images/stars.png);
+    background-repeat: repeat-y;
+}
+
+.header {
+    color: white;
+    font-family: futura;
+    position:absolute;
+    left:50%;
+    margin-left:-248px;
+    width:496px;
+    height:200px;
+    text-align: center;
+}
+
+.footer {
+    
+}
+
+.sectionone{
+    font-family: futura;
+    padding-top: 300px;
+    padding-left: 250px;
+    color: white;   
+}
+
+.nav{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #555;
+    margin-top: 20px;
+}
+
+.nav a{
+    display: block;
+    color: #BADA55;
+    padding: 6px 16px 8px 16px;
+    text-decoration: none;
+    top: 300px;
+}
+.nav a:hover {
+    background-color: #f1f1f1;
+}
+
+.content{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#blurb{
+    color: #e62200 ; 
+    border-top-style: solid;
+    border-top-color: #e62200 ;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e62200 ;
+    border-bottom-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
