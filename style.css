@@ -69,3 +69,13 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.listimage{
+}
+
+td{
+    padding-right: 40px;
+}
+th{
+    color: white;
+}
