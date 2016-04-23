@@ -1,7 +1,13 @@
 body {
     background-image: url(Images/stars.png);
     background-repeat: repeat-y;
+    font-size: 110%;
+    
 }
+
+
+    
+
 
 .header {
     color: white;
@@ -19,9 +25,10 @@ body {
 }
 
 .sectionone{
+    background-color: black;
     font-family: futura;
     padding-top: 300px;
-    padding-left: 250px;
+    margin-left: 250px;
     color: white;   
 }
 
