@@ -1,11 +1,15 @@
 body {
     background-image: url(Images/stars.png);
-    background-repeat: repeat-y;
+    background-repeat: repeat-x;
     font-size: 110%;
     
 }
 
-
+.module {
+    text-decoration: none;
+    color: #BADA55;
+    font-weight: 200;
+}
     
 
 
@@ -18,18 +22,17 @@ body {
     width:496px;
     height:200px;
     text-align: center;
+    
 }
 
 .footer {
     
 }
 
-.sectionone{
-    background-color: black;
-    font-family: futura;
-    padding-top: 300px;
+.sectionone, .sectiontwo{
+    
     margin-left: 250px;
-    color: white;   
+      
 }
 
 .nav{
@@ -54,8 +57,12 @@ body {
 }
 
 .content{
+    padding-top: 300px;
     margin-right: 10%;
     margin-left: 5%;
+    background-color: black;
+    font-family: futura;
+    color: white; 
 }
 
 #blurb{
