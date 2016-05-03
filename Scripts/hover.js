@@ -1,11 +1,10 @@
 function getImg(text) {
-    console.log(text);
     for (name in con){
     	if(con[name].name == text){
-            
-      	 return con[name].img;
+            return con[name].img;
       }
     }
+    return "Images/lost.png";
 }
 
 $(document).ready(function () {
