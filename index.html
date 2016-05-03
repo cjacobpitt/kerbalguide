@@ -16,18 +16,28 @@
         <h1>Astronaut 101</h1>
     </div>
     <ul class="nav">
-        <li><a>Intro</a></li>
-        <li><a>Getting Started</a></li>
+        <li><a href="/#sectionone">Introduction</a></li>
+        <li><a href="/#sectiontwo">Your First Launch</a></li>
     </ul>
     <div class="content">
-        <div class="sectionone">
-            <h2>Welcome to <i>Kerbal Space Program</i>!</h2>
-            <p>This guide will help you learn how to build a rocket, manage your space agency, and get into orbit.</p>
-            <br><br>
+        <div id="sectionone">
             <h1>Section 1: Introductions</h1>
-            <p id="blurb">Kerbal Space Program is a game built on the idea of "failing upward". Your rockets will explode, your astronauts will be stranded, and missions will fail. But each failure is a learning experience. This guide is here to assist you in understanding how this game works, how to fail correctly, and how to learn from everything that you do. This section will introduce you to the basic mechanics of the game and get you on the path to the stars.</p>
+            <p>Hello and welcome to the Kerbal Space Program Startup Guide. We are the last two CEOs of the Space Center, before you. You may have come here to gain insight into why your rockets keep exploding, or perhaps because you can’t figure out how to stay in orbit. We know those Kerbals and Kerbalinas are counting on you to get them into space so we’re to help. Everything from starting a game to returning to Kerbin from orbit is in this guide.<br><br>
+
+            Before introducing you to the mechanics of the game, there is a brief welcome speech every employee must attend including a tour around the Space Center campus, Kerbin, and the planetary system. There is also a meet and greet with the higher ups you will be interacting with. You can get to work after the festivities. Be sure to grab some cake for the road.<br><br>
+
+            When it’s time to start the game, we’re here for you. The second section in here was created with you in mind. There are quite a few modes, difficulties, and sliders to go through. Some of the more basic aspects of the game such as making Funds and Science are discussed in the fourth and fifth sections more formally. Don’t worry, you don’t have to take notes; the slides will be posted online and in this guide.<br><br> 
+
+            The team has put together a detailed list of rocketry parts and how to use them. This section includes instructions on how to build a basic rocket. Some experimentation may be involved, don’t worry about the little Kerbals walking below your rockets, they won’t judge you. There is important information about your first launch and flight.<br><br> 
+
+            Once you have the basics of building a rocket down, we teach you more complex ideas behind rocketry such as staging and decoupling. The last two methods we have to teach you are how to get out of orbit once there and how to land without exploding. We recognize these are quite difficult to do on your own, even with help. The goal here is to get you safely into orbit and return back to Kerbin. However, in the end it is up to you to create the ship that gets into space and keep it there. Good luck.<br><br>
+
+            Best Wishes,<br><bR>
+
+            Chris and Riona
+            </p>
             <br>
-            <h2>Starting a New Game</h2>
+            <h2>1.1: Starting a New Game</h2>
             <p id="blurb">Great! You want to start a new game but aren’t sure which type of game you want to choose, or perhaps how some of the options truly affect the difficulty of the game.</p>
             <br>
             <ol>
@@ -96,20 +106,52 @@
                 <li><strong>Science:</strong> Science contains all of the instruments used to conduct science experiments and get science points. These can range from things like mystery goo to thermometers to barometers. Importantly, science also contains communication systems, which help transmit data back to Kerbin.</li>
             </ol>
         </div>
-        <div class="sectiontwo">
+        <div id="sectiontwo">
             <h1>Section 2: Your First Launch</h1>
             <h2>2.1: Building Your First Rocket</h2>
-            <p id="blurb">Now that we know our way around the interface, we can start to build our first rocket. This rocket will be basic, but it will follow the same building paradigms that will show up in all subsequent rockets. </p>
+            <p id="blurb">Now that we know our way around the interface, we can start to build our first rocket. This rocket will be basic, but it will follow the same building paradigms that will show up in all subsequent rockets. To begin building your rocket, from the main game screen, click on the <strong>Vehicle Assembly Building</strong>. </p>
             <br>
             <ol>
                 <li>We begin with the command module. All we have available to us is the <a href="#" class="module">Mk1 Command Pod</a> at the start so we will place that in our canvas.</li>
                 <li>There are two options available for how to attach the <a href="#" class="module">RT-5 "Flea" Solid Fuel Booster</a>.<ol>
-                    <li><strong>Explosive Decoupling</strong>: This means just stacking the boosters on top of one another. When the bottom-most booster is depleted, the next one will fire off and after a few seconds, the heat will explode the depleted booster and the rocket will continue upwards.</li>
-                    <li><strong>Girder-Attached Boosters</strong>: This is based around placing one booster and then placing three <a href="#" class="module">Modular Girder Segment</a>s around that middle booster, then finally placing a booster on each girder segment. This will be achieved using the symmetry option.</li></ol></li>
+                    <li><strong>Explosive Decoupling</strong>: This means just stacking the boosters on top of one another. When the bottom-most booster is depleted, the next one will fire off and after a few seconds, the heat will explode the depleted booster and the rocket will continue upwards. This will require creating a new stage for each booster. Go to the <a href="#staging">Staging</a> section to read more about staging.</li>
+                    <li><strong>Girder-Attached Boosters</strong>: This is based around placing one booster and then setting <strong>Symmetry</strong> to 3 and placing three <a href="#" class="module">Modular Girder Segment</a>s around that middle booster, then finally placing a booster on each girder segment. This will be achieved using the symmetry option.</li></ol></li>
                 <li>Place an <a href="#" class="module">Mk16 Parachute</a> on the top of the command module.
                 <li>Place some <a href="#" class="module">Basic Fin</a>s on either the middle booster or on the three girder-attached boosters.</li>
                 <li>If you would like, place a <a href="#" class="module">Mystery Goo Containment Unit</a> on the command module. This unit helps you get more science points, which gives you more parts at a faster rate.</li>
             </ol>
+            <p>Now that you have a rocket, it is time to launch it!</p>
+            <br><br><br>
+            <h2>2.2: The Launch Screen</h2>
+            <p id="blurb">You will simply be launching your rocket up into the air this time. Since there is really no way to get it much higher than a few thousand meters, the purpose of this launch (and likely one more launch after) is to get you acquainted with the process of actually piloting your rocket. To get started, click on the green <strong>Launch</strong> button in the top right corner of the Vehicle Assembly Screen.</p>
+            <br>
+            <p>We will quickly explain the Launch Screen before going forward with the launch:</p>
+            <ol type="A">
+                <li>In the top left corner is the <strong>Time Warp Indicator</strong>. This lets you know how long the current mission has been going on for and if you are using the time warp function. With no time warp, there should be no arrows showing. When you do time warp (<strong>Comma</strong> and <strong>Period</strong> keys), arrows will show in the indicator to indicate how fast you are warping.</li>
+                <li>In the top middle is the altimeter. This tells you what your velocity, height, and atmospheric status is. You can also control geared parts, lights, and brakes with this. The ticker numbers indicate your height, and are measured in meters and then can roll over to measure in kilometers if you are sufficiently far out. The grey indicator is your velocity. Positive velocity means that you are going forwards or up at speed. Negative velocity means you are going backwards or down at speed. The atmosphere gauge indicates which level of the atmosphere you are in, with fully right being on the ground and fully left being in space outside of atmosphere (70,000 meters). If you hover over the top of the dashboard options to access the <strong>Recover Vessel</strong> and <strong>Space Center</strong> options. These options let you go back to the main game menu and either recover the rocket and crew (along with any retrieved science) if they have landed anywhere on Kerbin or just go back to the space center and leave the rocket where it is. The yellow and black striped section on the left of the dashboard can be hovered over as well to reveal the <strong>Abort Mission</strong> button, which ends the mission immediately, not recovering anything.</li>
+                <li>The top right corner contains information such as fuel levels, rocket information, communications from mission control, and contracts. These can all be hovered over to reveal that information.</li>
+                <li>The bottom right corner contains profiles for all of your Kerbals. Hovering over their portraits will give you the <strong>View</strong> and <strong>EVA</strong> options. View lets you see from their perspective inside the command module. This view can be exited by default by pressing the <strong>C</strong> key. EVA sends the Kerbal outside of the rocket, and lets them perform exploratory operations in space or on the ground. Avoid going EVA while the rocket is in motion.</li>
+                <li>The bottom middle has the second dashboard. This is dominated by the <strong>Directional Ball</strong>. The Directional Ball is designed for steering. If the rocket is facing directly upwards then the ball will be set to 0 in the middle of the blue half. Moving the rocket in any direction causes the ball to move accordingly. The ball notates the degrees in which the rocket is turning. Blue means the rocket is facing upwards, orange means the rocket is facing downwards. There are two green symbols on the ball which we will get into later when getting into orbit, but for now just try to keep the rocket from turning too much. To the right side of the ball is the <strong>G-Force Indicator</strong>. G-Force will not be a concern for us, but if the G-Force Indicator stays in the red for too long, our Kerbals can die and certain rocket parts can be destroyed. To the left side of the ball is the <strong>Throttle</strong>. This is controlled with the left-side <strong>Shift</strong> and <strong>Control</strong> keys by default. Since we are not using liquid fuel yet, the throttle controls nothing, but in the future we will be using it quite extensively.</li>
+                <li>The bottom-left contains directional indicators such as pitch, roll, and yaw. These are primarily used for docking, which we will not be covering in this guide.</li>
+                <br><br>
+                <img src="Images/launchscreen.png" width="75%"/>
+            </ol>
+            <br><br><br>
+            <h2>2.3: The Actual Launch!</h2>
+            <p id="blurb">Time to fly! Do not be worried if your rocket crashes or spins out of control. Your first few launches can be difficult as you adjust to the controls and the realities of piloting a rocket.</p>
+            <ol>
+                <li>Press <strong>Space</strong> to activate the solid fuel boosters. These will boost until they are out of fuel. Depending on which type of rocket you chose to make you will either wait until they all run out or keep pressing <strong>Space</strong> to activate the next booster on the line. </li>
+                <li>Right-click on the command module and click <strong>Crew Report</strong>. The science window appears.</li>
+                <li>Click <strong>Keep Experiment</strong>. This will give you science points when you recover the vessel. Do the same process with the <a href="#" class="module">Mystery Goo Containment Unit</a> if you attached it.</li>
+                <li>When all of the boosters are out of fuel and your velocity is heading back down to 0, press <strong>Space</strong> one more time to activate your parachute. The parachute will deploy and slow down your rocket once you reach 1000 meters above the ground.</li>
+                <li>Your rocket will hit the ground and it is very likely that your boosters will explode, but your command module will stay intact. </li>
+                <li>Click <strong>EVA</strong> on your Kerbal’s portrait to send them out. Have them let go of the ladder.</li>
+                <li>Right-click on your Kerbal and then click <strong>EVA Report</strong>. The science window appears.</li>
+                <li>Click <strong>Keep Experiment</strong>.</li>
+                <li>Hover to the top of the altimeter and click <strong>Recover Vessel</strong>. You return to the main game screen.</li>
+            </ol>
+            <br>
+            <p>Do this launch a few more times to practice and get more science points. When you have unlocked <strong>Engineering 101</strong> and <strong>Basic Rocketry</strong> you may continue on to the next section of this guide. Happy flying!</p>
         </div>
     </div>
     <div class="footer">

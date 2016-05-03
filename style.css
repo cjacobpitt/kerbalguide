@@ -1,6 +1,6 @@
 body {
     background-image: url(Images/stars.png);
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
     font-size: 110%;
     
 }
@@ -11,7 +11,9 @@ body {
     font-weight: 200;
 }
     
-
+a {
+    color: #e62200;
+}
 
 .header {
     color: white;
@@ -29,7 +31,7 @@ body {
     
 }
 
-.sectionone, .sectiontwo{
+#sectionone, #sectiontwo{
     
     margin-left: 250px;
       
@@ -85,4 +87,8 @@ td{
 }
 th{
     color: white;
+}
+
+li{
+    padding-bottom: 10px;
 }
