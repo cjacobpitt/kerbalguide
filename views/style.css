@@ -15,6 +15,10 @@ a {
     color: #e62200;
 }
 
+strong{
+ font-size: 120%;   
+}
+
 .header {
     color: white;
     font-family: futura;
@@ -31,7 +35,7 @@ a {
     
 }
 
-#sectionone, #sectiontwo{
+#sectionone, #sectiontwo, #sectionthree, #sectionfour, #sectionfive, #glossary{
     
     margin-left: 250px;
       

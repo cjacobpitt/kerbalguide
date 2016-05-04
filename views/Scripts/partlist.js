@@ -14,7 +14,7 @@ var con = [
     {"name": 'LV-T45 "Swivel" Liquid Fuel Engine', "img": "http://wiki.kerbalspaceprogram.com/images/6/67/LV-T45_LFE.png"},
     {"name": 'BACC "Thumper" Solid Fuel Booster', "img": "http://wiki.kerbalspaceprogram.com/images/0/08/BACC_SFB.png"},
     {"name": 'FL-T200 Fuel Tank', "img": "http://wiki.kerbalspaceprogram.com/images/f/f7/FL-T200_Fuel_Tank_Transparent.png"},
-    {"name": 'Aerodynamic Nose Cone ', "img": "http://wiki.kerbalspaceprogram.com/images/2/21/Aerodynamic_Nosecone.png"},
+    {"name": 'Aerodynamic Nose Cone', "img": "http://wiki.kerbalspaceprogram.com/images/2/21/Aerodynamic_Nosecone.png"},
     {"name": 'AV-T1 Winglet', "img": "http://wiki.kerbalspaceprogram.com/images/f/f0/AVT1_Winglet.png"},
     {"name": 'TT-38K Radial Decoupler', "img": "http://wiki.kerbalspaceprogram.com/images/1/17/TT-38K.png"},
     {"name": 'Heat Shield (1.25m)', "img": "http://wiki.kerbalspaceprogram.com/images/7/7d/HeatShieldSmall.png"},
