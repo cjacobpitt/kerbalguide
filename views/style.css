@@ -1,0 +1,94 @@
+body {
+    background-image: url(Images/space.png);
+    background-repeat: repeat-y;
+    font-size: 110%;
+    
+}
+
+.module {
+    text-decoration: none;
+    color: #BADA55;
+    font-weight: 200;
+}
+    
+a {
+    color: #e62200;
+}
+
+.header {
+    color: white;
+    font-family: futura;
+    position:absolute;
+    left:50%;
+    margin-left:-248px;
+    width:496px;
+    height:200px;
+    text-align: center;
+    
+}
+
+.footer {
+    
+}
+
+#sectionone, #sectiontwo{
+    
+    margin-left: 250px;
+      
+}
+
+.nav{
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #555;
+    margin-top: 20px;
+}
+
+.nav a{
+    display: block;
+    color: #BADA55;
+    padding: 6px 16px 8px 16px;
+    text-decoration: none;
+    top: 300px;
+}
+.nav a:hover {
+    background-color: #f1f1f1;
+}
+
+.content{
+    padding-top: 300px;
+    margin-right: 10%;
+    margin-left: 5%;
+    background-color: black;
+    font-family: futura;
+    color: white; 
+}
+
+#blurb{
+    color: #e62200 ; 
+    border-top-style: solid;
+    border-top-color: #e62200 ;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e62200 ;
+    border-bottom-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listimage{
+}
+
+td{
+    padding-right: 40px;
+}
+th{
+    color: white;
+}
+
+li{
+    padding-bottom: 10px;
+}
